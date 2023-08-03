@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color:#fce9c5 ;
+
+        }
+        .header{
+            background-image: url('img1.png') ;
+            background-position: fixed;
+            background-size: cover;
+            background-repeat: no repeat;
+            height: 102.4px;
+        }
+        .text-field{
+            margin-left: 1450px;
+            margin-top: 0px;
+            font-size: medium;
+        }
+        .nav-bar{
+            background-color: #FDB813;
+            height: 657px;
+            width: 210px;
+        }
+        .tag-line_nav{
+            color: white;
+            border-bottom: 2px solid red;
+            width: 180px;            
+        }
+        .box{
+            margin: 3px;
+            width: 130px;
+            height: 25px;
+            background-color: white;
+            border: 4px solid rgb(65, 65, 243);
+            color: rgb(65, 65, 243);
+            padding: 2px;
+            font-size: medium;
+        }
+        .drop-1 , .drop-2  , .drop-3 , .drop-4 , .drop-5  {
+            margin: 3px;
+            width: 140px;
+            height: 35px;
+            background-color: white;
+            border: 4px solid rgb(65, 65, 243);
+            color: rgb(65, 65, 243);
+            font-size: medium;
+            text-align: left;
+        }
+        .drop-content-1 , .drop-content-2 , .drop-content-3 , .drop-content-4 , .drop-content-5 {
+            display: none;
+        }
+        .dropdown-1:hover .drop-content-1 , .dropdown-2:hover .drop-content-2 , .dropdown-3:hover .drop-content-3 , .dropdown-4:hover .drop-content-4 , .dropdown-5:hover .drop-content-5
+        {
+            display: block;
+        }
+        .box-links-5 , .box-links-4 , .box-links-3 , .box-links-2 ,.box-links-1 {
+            display: block;
+            padding: 3px;
+        }
+        .main-part{
+            width: 1310px;
+            height: 656px;
+            position: relative;
+            top: -657px;
+            left: 210px;
+        }
+
+
+
+        #date{
+            text-align: right;
+            color: red;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .link{
+            font-size: larger;
+            text-align: center;
+
+        }
+        .link-1 , .link-2{
+            background-color: yellow;
+
+        }
+        .imp-info{
+            width: 1000px ;
+            height: 220px ;
+            margin: auto;
+            margin-top: 50px;
+            border: 2px solid black;
+        }
+        table , th , tr{
+            border: 1px solid rgb(0, 0, 0);
+            
+            border-collapse : collapse ;
+
+        }
+        table{
+            width: 500px;
+        }
+        .top-row{
+            background-color: orange;
+        }
+        .info-img{
+            padding-top: 14px;
+            margin: auto;
+           
+        }
+        
+        
+    </style>
+
+
+    <div class="header">
+        <div class="text-field">
+            <p>Welcome <br>NIKHIL</p>
+            <a href="page-2.html">signout</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="nav-bar">
+            <p class="tag-line_nav" >Available Option</p>
+            <div class="dropdown-1">
+                <button class="drop-1">Personal Info <i class="fa-solid fa-caret-down"></i> </button>
+                <div class="drop-content-1">
+                    <a href="#" class="box-links-1">Personal detail</a>
+                    <a href="#" class="box-links-1">Edit Info</a>
+                    <a href="#" class="box-links-1">Bank Info.</a>
+                </div>
+            </div>
+
+            <div class="dropdown-2">
+                <button class="drop-2">SRS <i class="fa-solid fa-caret-down"></i> </button>
+                <div class="drop-content-2">
+                    <a href="#" class="box-links-2">View sent SRS</a>
+                    <a href="#" class="box-links-2">New SRS Entry</a>
+                </div>
+            </div>
+
+            <div class="dropdown-3">
+                <button class="drop-3">Fee Details <i class="fa-solid fa-caret-down"></i> </button>
+                <div class="drop-content-3">
+                    <a href="#" class="box-links-3">Reg. Fee Info</a>
+                    <a href="#" class="box-links-3">Fee Pay Confirmation</a>
+                    <a href="#" class="box-links-3">Fee Receipt</a>
+                    <a href="#" class="box-links-3">Pay Fee on-line</a>
+                    <a href="#" class="box-links-3">On-line fee paid history</a>
+                    <a href="#" class="box-links-3">HDFC Order Status tracker</a>
+                </div>
+            </div>
+
+            <div class="dropdown-4">
+                <button class="drop-4">Academy Info <i class="fa-solid fa-caret-down"></i> </button>
+                <div class="drop-content-4">
+                    <a href="#" class="box-links-4"> Academic Document Status</a>
+                    <a href="#" class="box-links-4">Pre Registration</a>
+                    <a href="#" class="box-links-4">Send to HOD</a>
+                    <a href="#" class="box-links-4">Pre. Reg. Subj.</a>
+                    <a href="#" class="box-links-4">Hostel Choice Status</a>
+                    <a href="#" class="box-links-4"> My Attendance</a>
+                    <a href="#" class="box-links-4">Subject Regtd.</a>
+                    <a href="#" class="box-links-4">Subject Regtd. Details</a>
+                </div>
+            </div>
+
+            <div class="dropdown-5">
+                <button class="drop-5">Exam Info <i class="fa-solid fa-caret-down"></i> </button>
+                <div class="drop-content-5">
+                    <a href="#" class="box-links-5">Exam Marks </a>
+                    <a href="#" class="box-links-5">Exam Grades</a>
+                    <a href="#" class="box-links-5">View SGPA/CGPA</a>
+                </div>
+            </div>
+
+            <br>
+            
+
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">FAQ</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">Minor/MASt/MS Notice</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-1st Yr. TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-2nd Yr.Part-I TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-2nd Yr.Part-II TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-3rd Yr.Part-I TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-3rd Yr.Part-II TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">UG-4th Yr. TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">PG (ME/MTech) TIMETABLE</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">FREE ELECTIVE TUTORIALS</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="">Change PIN</a><br>
+            <i class="fa-solid fa-hand-point-right"></i>
+            <a href="page-2.html">Logout</a>
+            </b>
+        </div>
+        
+    </div>
+
+    <div class="main-part">
+        <p id="date"></p>
+        <script>
+            document.getElementById('date').innerHTML= new Date();
+        </script>
+        <div class="link">
+            <a href="" class="link-1">Normal Semester Registration FEECIRCULAR_2324ODDSEM 29-06-2023</a><br><br>
+            <a href="" class="link-2">Project Semester Registration FEECIRCULAR_2324ODDSEM 09-05-2023</a>
+        </div>
+        <div class="imp-info">
+            <p style="color: green;"><b>Dear student</b></p>
+            <table>
+                <tr class="top-row">Your fee dues details are ..</tr>
+                <tr class="top-row">
+                    <th>SI No.</th>
+                    <th>Reg. code</th>
+                    <th>Dues</th>
+                    <th>Due Date</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>-</th>
+                    <th>-</th>
+                    <th>-</th>
+                </tr>
+            </table>
+            <img class="info-img" src="img7.png" alt="info-img" usemap="#workmap">
+            <map name="workmap">
+                <area shape="rect" coords="234,37,465,48" alt="site-link" href="http://www.jilit.co.in/">
+                <area shape="rect" coords="304,82,465,88" alt="site-mail" href="#">
+            </map>
+            
+        </div>
+    </div>
+</body>
+</html>
